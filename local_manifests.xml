@@ -2,16 +2,16 @@
 <manifest>
 	<!-- Remotes -->
 	<remote  name="PrajjuS"
-                     fetch="https://github.com/PrajjuS" />
+                 fetch="https://github.com/PrajjuS" />
 	<remote  name="AddyGod"
-		             fetch="https://github.com/adnan-44" />
-    <remote  name="PixelExperience"
-                     fetch="https://github.com/PixelExperience" />
+		 fetch="https://github.com/adnan-44" />
+        <remote  name="PixelExperience"
+                 fetch="https://github.com/PixelExperience" />
 
 	<!-- Device side things -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="aosp9" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="aosp9" clone-depth="1" />
-    <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="PrajjuS" revision="darky" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="PrajjuS" revision="darky" clone-depth="1" />
 
 	<!-- Hals -->
 	<remove-project name="hardware_qcom-caf_wlan" />
@@ -19,7 +19,7 @@
 	<remove-project name="hardware_qcom-caf_msm8996_audio" />
 	<remove-project name="hardware_qcom-caf_msm8996_display" />
 	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PixelExperience" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
 </manifest>
