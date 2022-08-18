@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remotes -->
-	<remote  name="PrajjuS"
-                 fetch="https://github.com/PrajjuS" />
-	<remote  name="AddyGod"
-		 fetch="https://github.com/adnan-44" />
-        <remote  name="PixelExperience"
-                 fetch="https://github.com/PixelExperience" />
 
-	<!-- Device side things -->
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="PrajjuS" revision="darky" clone-depth="1" />
+ <!-- GitLab -->
+ <remote  name="Gitlab"
+	 fetch="https://gitlab.com/" />
+ 
+ <!-- Trees -->
+ <project path="device/xiaomi/vince" name="GhostMaster69-dev/android_device_xiaomi_vince" remote="github" revision="octavi-11-main" />
+ <project path="vendor/xiaomi/vince" name="GhostMaster69-dev/android_vendor_xiaomi_vince" remote="github" revision="octavi-11-main" />
+ <project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="stable" />
+
+ <!-- Cosmic-Clang v14.0.0 Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="main" />
+
+ <!-- Packages -->
+ <project path="packages/apps/CameraGo" name="GhostMaster69-dev/android_packages_apps_CameraGo" remote="github" revision="main" />
+ <project path="packages/apps/FMRadio" name="GhostMaster69-dev/android_packages_apps_FMRadio" remote="github" revision="12" />
+
 </manifest>
