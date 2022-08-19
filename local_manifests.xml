@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remotes -->
-	<remote  name="PrajjuS"
-                 fetch="https://github.com/PrajjuS" />
-	<remote  name="AddyGod"
-		 fetch="https://github.com/adnan-44" />
-        <remote  name="PixelExperience"
-                 fetch="https://github.com/PixelExperience" />
 
-	<!-- Device side things -->
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="PrajjuS" revision="darky" clone-depth="1" />
+ <!-- github-me -->
+ <remote name="a"
+	 fetch="https://github.com/Blacksuan19" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="a" revision="dot-p-4.9" />
+ <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince/vince" remote="a" revision="pie-4.9" />
+ <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="a" revision="darky" />
+
 </manifest>
